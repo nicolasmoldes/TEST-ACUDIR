@@ -5,3 +5,4 @@
 /.vs/Acudir.Test
 /Acudir.Test.Apis/bin
 /Acudir.Test.Apis/obj
+.env
