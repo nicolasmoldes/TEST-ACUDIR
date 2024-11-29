@@ -12,14 +12,17 @@ La API está protegida con JWT para autenticación y autorización.
 ## Autenticación
 
 La api utiliza JWT para la autenticación y autorización. Asegúrate de incluir el token JWT en el encabezado de las solicitudes que requieren autenticación.
-El jwt lo podes generar automaticamente desde https://jwt-generator-api.onrender.com/index.html
-Es un servicio personal, ante cualquier inconveniente no dudes en contactarme a mi email.
+El jwt lo podes generar automaticamente desde https://jwt-generator-api.onrender.com/index.html con las credenciales que se indican mas abajo.
 
 !!!IMPORTANTE !!!
 Las credenciales de acceso son:
 - Usuario: AcudirTest
 - Contraseña: AcudirTest
 - El token generado tiene una duración de 1 hora
+
+La estructura del tocken es similar a esta:
+
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBY3VkaXJUZXN0IiwianRpIjoiYjZkMDg3ZGMtOWUyZC00YmI4LWEwYzgtOGIwYjc0ZGI3ZGJlIiwibmJmIjoxNzMyODY3NDEzLCJleHAiOjE3MzI4NzEwMTMsImlhdCI6MTczMjg2NzQxMywiaXNzIjoidHVJc3N1ZXIiLCJhdWQiOiJ0dUF1ZGllbmNlIn0.8Um0p-vX45U98Y1mGyO9LmWsMtLUsyuq7-o5rCH2QZw
 
 ## Docker
 Ejecutando el comando docker-compose up --build se va a crear una imagen de la aplicacion y para luego ejecutarse en un contenedor docker, el archivo `.env` se crea automaticamente con docker.
