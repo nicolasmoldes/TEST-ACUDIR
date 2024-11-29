@@ -7,7 +7,7 @@ La API está protegida con JWT para autenticación y autorización.
 - Archivo `.env` con la clave secreta para JWT (`JWT_SECRET_KEY`)
 
 ## Configuración
-1. Crea un archivo `.env` en la raíz del proyecto con la siguiente variable de entorno: JWT_SECRET_KEY=MySecureJwtKey12345678901234567890
+1. Crea un archivo `.env` en la raíz del proyecto (Acudir.Test.Apis) con la siguiente variable de entorno: JWT_SECRET_KEY=MySecureJwtKey12345678901234567890
 
 ## Autenticación
 
