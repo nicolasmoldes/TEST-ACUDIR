@@ -14,3 +14,19 @@ C:\Users\Micaela Sielas\source\repos\TEST-ACUDIR\Application\obj\Debug\net6.0\Ap
 C:\Users\Micaela Sielas\source\repos\TEST-ACUDIR\Application\obj\Debug\net6.0\refint\Application.dll
 C:\Users\Micaela Sielas\source\repos\TEST-ACUDIR\Application\obj\Debug\net6.0\Application.pdb
 C:\Users\Micaela Sielas\source\repos\TEST-ACUDIR\Application\obj\Debug\net6.0\ref\Application.dll
+E:\TEST-ACUDIR\Application\bin\Debug\net6.0\Application.deps.json
+E:\TEST-ACUDIR\Application\bin\Debug\net6.0\Application.dll
+E:\TEST-ACUDIR\Application\bin\Debug\net6.0\Application.pdb
+E:\TEST-ACUDIR\Application\bin\Debug\net6.0\Domain.dll
+E:\TEST-ACUDIR\Application\bin\Debug\net6.0\Domain.pdb
+E:\TEST-ACUDIR\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+E:\TEST-ACUDIR\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\TEST-ACUDIR\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+E:\TEST-ACUDIR\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+E:\TEST-ACUDIR\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+E:\TEST-ACUDIR\Application\obj\Debug\net6.0\Application.sourcelink.json
+E:\TEST-ACUDIR\Application\obj\Debug\net6.0\Applicat.44B5EDA2.Up2Date
+E:\TEST-ACUDIR\Application\obj\Debug\net6.0\Application.dll
+E:\TEST-ACUDIR\Application\obj\Debug\net6.0\refint\Application.dll
+E:\TEST-ACUDIR\Application\obj\Debug\net6.0\Application.pdb
+E:\TEST-ACUDIR\Application\obj\Debug\net6.0\ref\Application.dll

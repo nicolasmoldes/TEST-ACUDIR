@@ -1,45 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\UnitTest\\UnitTest.csproj": {}
+    "E:\\TEST-ACUDIR\\UnitTest\\UnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\Acudir.Test.Apis\\Acudir.Test.Apis.csproj": {
+    "E:\\TEST-ACUDIR\\Acudir.Test.Apis\\Acudir.Test.Apis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\Acudir.Test.Apis\\Acudir.Test.Apis.csproj",
+        "projectUniqueName": "E:\\TEST-ACUDIR\\Acudir.Test.Apis\\Acudir.Test.Apis.csproj",
         "projectName": "Acudir.Test.Apis",
-        "projectPath": "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\Acudir.Test.Apis\\Acudir.Test.Apis.csproj",
-        "packagesPath": "C:\\Users\\Micaela Sielas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\Acudir.Test.Apis\\obj\\",
+        "projectPath": "E:\\TEST-ACUDIR\\Acudir.Test.Apis\\Acudir.Test.Apis.csproj",
+        "packagesPath": "C:\\Users\\Nico\\.nuget\\packages\\",
+        "outputPath": "E:\\TEST-ACUDIR\\Acudir.Test.Apis\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Micaela Sielas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Nico\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\Application\\Application.csproj"
+              "E:\\TEST-ACUDIR\\Application\\Application.csproj": {
+                "projectPath": "E:\\TEST-ACUDIR\\Application\\Application.csproj"
               },
-              "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\Data\\Data.csproj"
-              },
-              "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\Domain\\Domain.csproj"
+              "E:\\TEST-ACUDIR\\Data\\Data.csproj": {
+                "projectPath": "E:\\TEST-ACUDIR\\Data\\Data.csproj"
               }
             }
           }
@@ -100,6 +91,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -112,36 +121,30 @@
         }
       }
     },
-    "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\Application\\Application.csproj": {
+    "E:\\TEST-ACUDIR\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\Application\\Application.csproj",
+        "projectUniqueName": "E:\\TEST-ACUDIR\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Micaela Sielas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\Application\\obj\\",
+        "projectPath": "E:\\TEST-ACUDIR\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Nico\\.nuget\\packages\\",
+        "outputPath": "E:\\TEST-ACUDIR\\Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Micaela Sielas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Nico\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\Domain\\Domain.csproj"
+              "E:\\TEST-ACUDIR\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\TEST-ACUDIR\\Domain\\Domain.csproj"
               }
             }
           }
@@ -178,6 +181,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -187,36 +204,30 @@
         }
       }
     },
-    "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\Data\\Data.csproj": {
+    "E:\\TEST-ACUDIR\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\Data\\Data.csproj",
+        "projectUniqueName": "E:\\TEST-ACUDIR\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\Micaela Sielas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\Data\\obj\\",
+        "projectPath": "E:\\TEST-ACUDIR\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\Nico\\.nuget\\packages\\",
+        "outputPath": "E:\\TEST-ACUDIR\\Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Micaela Sielas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Nico\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\Domain\\Domain.csproj"
+              "E:\\TEST-ACUDIR\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\TEST-ACUDIR\\Domain\\Domain.csproj"
               }
             }
           }
@@ -253,6 +264,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -262,28 +287,22 @@
         }
       }
     },
-    "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\Domain\\Domain.csproj": {
+    "E:\\TEST-ACUDIR\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\TEST-ACUDIR\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Micaela Sielas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\Domain\\obj\\",
+        "projectPath": "E:\\TEST-ACUDIR\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Nico\\.nuget\\packages\\",
+        "outputPath": "E:\\TEST-ACUDIR\\Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Micaela Sielas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Nico\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -324,6 +343,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -333,39 +366,33 @@
         }
       }
     },
-    "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\UnitTest\\UnitTest.csproj": {
+    "E:\\TEST-ACUDIR\\UnitTest\\UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\UnitTest\\UnitTest.csproj",
+        "projectUniqueName": "E:\\TEST-ACUDIR\\UnitTest\\UnitTest.csproj",
         "projectName": "UnitTest",
-        "projectPath": "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\UnitTest\\UnitTest.csproj",
-        "packagesPath": "C:\\Users\\Micaela Sielas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\UnitTest\\obj\\",
+        "projectPath": "E:\\TEST-ACUDIR\\UnitTest\\UnitTest.csproj",
+        "packagesPath": "C:\\Users\\Nico\\.nuget\\packages\\",
+        "outputPath": "E:\\TEST-ACUDIR\\UnitTest\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Micaela Sielas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Nico\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\Acudir.Test.Apis\\Acudir.Test.Apis.csproj": {
-                "projectPath": "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\Acudir.Test.Apis\\Acudir.Test.Apis.csproj"
+              "E:\\TEST-ACUDIR\\Acudir.Test.Apis\\Acudir.Test.Apis.csproj": {
+                "projectPath": "E:\\TEST-ACUDIR\\Acudir.Test.Apis\\Acudir.Test.Apis.csproj"
               },
-              "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Micaela Sielas\\source\\repos\\TEST-ACUDIR\\Domain\\Domain.csproj"
+              "E:\\TEST-ACUDIR\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\TEST-ACUDIR\\Domain\\Domain.csproj"
               }
             }
           }
@@ -420,6 +447,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

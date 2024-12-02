@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Acudir.Test.Apis</name>
+    </assembly>
+    <members>
+        <member name="M:Acudir.Test.Apis.Controllers.TestController.GetAll(System.Nullable{System.Int32},System.String,System.Nullable{System.Int32},System.String,System.String,System.String)">
+            <summary>
+            Obtiene una lista de personas según los parámetros de la consulta. Si no hay parametros, trae la lista completa
+            </summary>
+        </member>
+        <member name="M:Acudir.Test.Apis.Controllers.TestController.Add(System.String,System.Int32,System.String,System.String,System.String)">
+            <summary>
+            Agrega una nueva persona.
+            </summary>
+        </member>
+        <member name="M:Acudir.Test.Apis.Controllers.TestController.Update(System.Int32,System.String,System.Nullable{System.Int32},System.String,System.String,System.String)">
+            <summary>
+            Actualiza las propiedades de una persona existente dependiendo del valor de los parámetros. Los parámetros vacíos son ignorados.
+            </summary>
+        </member>
+    </members>
+</doc>

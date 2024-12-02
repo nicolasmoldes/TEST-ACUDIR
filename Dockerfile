@@ -17,7 +17,7 @@ RUN dotnet restore Data/Data.csproj
 COPY Application/*.csproj Application/
 RUN dotnet restore Application/Application.csproj
 
-# Copiar el resto de los archivos y construir la aplicación
+# Copiar el resto de los archivos y construir la aplicaciï¿½n
 COPY . ./
 RUN dotnet publish -c Release -o out
 

@@ -11,3 +11,16 @@ C:\Users\Micaela Sielas\source\repos\TEST-ACUDIR\Domain\obj\Debug\net6.0\Domain.
 C:\Users\Micaela Sielas\source\repos\TEST-ACUDIR\Domain\obj\Debug\net6.0\refint\Domain.dll
 C:\Users\Micaela Sielas\source\repos\TEST-ACUDIR\Domain\obj\Debug\net6.0\Domain.pdb
 C:\Users\Micaela Sielas\source\repos\TEST-ACUDIR\Domain\obj\Debug\net6.0\ref\Domain.dll
+E:\TEST-ACUDIR\Domain\bin\Debug\net6.0\Domain.deps.json
+E:\TEST-ACUDIR\Domain\bin\Debug\net6.0\Domain.dll
+E:\TEST-ACUDIR\Domain\bin\Debug\net6.0\Domain.pdb
+E:\TEST-ACUDIR\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+E:\TEST-ACUDIR\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\TEST-ACUDIR\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+E:\TEST-ACUDIR\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+E:\TEST-ACUDIR\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+E:\TEST-ACUDIR\Domain\obj\Debug\net6.0\Domain.sourcelink.json
+E:\TEST-ACUDIR\Domain\obj\Debug\net6.0\Domain.dll
+E:\TEST-ACUDIR\Domain\obj\Debug\net6.0\refint\Domain.dll
+E:\TEST-ACUDIR\Domain\obj\Debug\net6.0\Domain.pdb
+E:\TEST-ACUDIR\Domain\obj\Debug\net6.0\ref\Domain.dll

@@ -57,6 +57,22 @@ namespace UnitTest
             var notFoundResult = Assert.IsType<NotFoundObjectResult>(result);
             Assert.Equal("No se encontraron personas con los datos proporcionados.", notFoundResult.Value);
         }
+
+        [Fact]
+        public async Task GetAll_ReturnsOkResult_WhenPersonasIsEmpty()
+        {
+            // Arrange
+            _mediatorMock.Setup(m => m.Send(It.IsAny<GetPersonaRequest>(), It.IsAny<CancellationToken>()))
+                        .ReturnsAsync(new List<PersonaDto>()); // Lista vacía
+
+            // Act
+            var result = await _controller.GetAll(null, null, null, null, null, null);
+
+            // Assert
+            var okResult = Assert.IsType<OkObjectResult>(result);
+            var returnValue = Assert.IsType<List<PersonaDto>>(okResult.Value);
+            Assert.Empty(returnValue);  // Verifica que la lista está vacía
+        }
         #endregion
 
         #region Add Tests
@@ -96,6 +112,39 @@ namespace UnitTest
             Assert.Equal(persona.Domicilio, returnValue.Domicilio);
             Assert.Equal(persona.Telefono, returnValue.Telefono);
             Assert.Equal(persona.Profesion, returnValue.Profesion);
+        }
+
+        [Fact]
+        public async Task Add_ReturnsBadRequest_WhenMissingRequiredField()
+        {
+            // Arrange
+            var addPersonaDto = new AddPersonaRequestDto { NombreCompleto = "", Edad = 30 }; // NombreCompleto vacío
+            
+            // Act
+            var result = await _controller.Add(addPersonaDto.NombreCompleto, addPersonaDto.Edad, addPersonaDto.Domicilio, addPersonaDto.Telefono, addPersonaDto.Profesion);
+
+            // Assert
+            var badRequestResult = Assert.IsType<BadRequestObjectResult>(result);
+            Assert.Equal("El campo NombreCompleto es obligatorio.", badRequestResult.Value);
+        }
+        #endregion
+
+        #region Error Handling Tests
+        [Fact]
+        public async Task Add_ReturnsInternalServerError_WhenServiceFails()
+        {
+            // Arrange
+            var addPersonaDto = new AddPersonaRequestDto { NombreCompleto = "John Doe", Edad = 30 };
+            _servicePersonaMock.Setup(s => s.AddPersonaAsync(It.IsAny<AddPersonaRequestDto>()))
+                                .ThrowsAsync(new Exception("Error interno"));
+
+            // Act
+            var result = await _controller.Add(addPersonaDto.NombreCompleto, addPersonaDto.Edad, addPersonaDto.Domicilio, addPersonaDto.Telefono, addPersonaDto.Profesion);
+
+            // Assert
+            var errorResult = Assert.IsType<ObjectResult>(result);
+            Assert.Equal(500, errorResult.StatusCode);
+            Assert.Equal("Error interno", errorResult.Value);
         }
         #endregion
 
